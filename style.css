@@ -1,0 +1,49 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    /* syntax fron image gotten from perfect full page image(google) */
+    background: url(startup_img.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-weight: 2rem;
+    color: cornsilk;
+    
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-large {
+    padding: 1rem 2rem;
+}
+
+.btn-secondary {
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+}
+.btn-secondary:hover {
+     background-color: cyan;
+     border-color: cyan;  
+}
+
+hr {
+    background-color: darkmagenta;
+    border-width: 3px;
+    max-width: 80px;
+
+}
+
+.buff {
+    height: 10rem;
+
+}
